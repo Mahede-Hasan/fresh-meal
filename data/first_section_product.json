@@ -1,0 +1,32 @@
+[
+    {   "id": 1,
+        "img": "../images/first_sec_img/cart-1.jpg",
+        "cart_name": "Fresh Vegetables",
+        "cart_item": "Exotic Fruits & Veggies <br>Fresh FruitsFresh <br>Vegetables <br>Herbs & Seasonings"
+    },
+    {   "id": 2,
+        "img": "../images/first_sec_img/cart-2.jpg",
+        "cart_name": "Fresh Fruits",
+        "cart_item": "Exotic Fruits & Veggies <br>Fresh FruitsFresh <br>Vegetables <br>Herbs & Seasonings"
+    },
+    {   "id": 3,
+        "img": "../images/first_sec_img/cart-3.jpg",
+        "cart_name": "Fruit Drink",
+        "cart_item": "Exotic Fruits & Veggies <br>Fresh FruitsFresh <br>Vegetables <br>Herbs & Seasonings"
+    },
+    {   "id": 4,
+        "img": "../images/first_sec_img/cart-4.jpg",
+        "cart_name": "Fresh Milk",
+        "cart_item": "Exotic Fruits & Veggies <br>Fresh FruitsFresh <br>Vegetables <br>Herbs & Seasonings"
+    },
+    {   "id": 5,
+        "img": "../images/first_sec_img/cart-5.jpg",
+        "cart_name": "Biscuits Snack",
+        "cart_item": "Exotic Fruits & Veggies <br>Fresh FruitsFresh <br>Vegetables <br>Herbs & Seasonings"
+    },
+    {   "id": 6,
+        "img": "../images/first_sec_img/cart-6.jpg",
+        "cart_name": "Meat & Eggs",
+        "cart_item": "Exotic Fruits & Veggies <br>Fresh FruitsFresh <br>Vegetables <br>Herbs & Seasonings"
+    }
+]        

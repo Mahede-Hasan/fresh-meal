@@ -8,6 +8,7 @@
 
     <!-- style css link -->
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/first_section_product.css">
 
     <!-- tailwind css and daisyUI -->
     <link href="https://cdn.jsdelivr.net/npm/daisyui@4.11.1/dist/full.min.css" rel="stylesheet" type="text/css" />
@@ -24,9 +25,14 @@
 
     <!-- Link Swiper's CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="css/carousel2.css">
 
     <!-- swiper -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+    <style>
+
+    </style>
 
 </head>
 
@@ -168,7 +174,7 @@
         <section>
 
             <!-- Swiper -->
-            <div class="swiper mySwiper">
+            <div id="carousel" class="swiper mySwiper">
 
                 <!-- slider-container -->
                 <div class="swiper-wrapper">
@@ -185,7 +191,8 @@
                             <h1 class="slider-text-header text-gray-200 font-serif font-bold text-[60px] mb-4">Fresh
                                 Meat</h1>
 
-                            <p class="text-white mb-2 text-lg slider-text-header">Fresh meat products include whole muscles through minced
+                            <p class="text-white mb-2 text-lg slider-text-header">Fresh meat products include whole
+                                muscles through minced
                                 meat.</p>
 
                             <button
@@ -207,7 +214,8 @@
                             <h1 class="slider-text-header text-gray-200 font-serif font-bold text-[60px] mb-4">Fresh
                                 Food</h1>
 
-                            <p class="text-white mb-2 text-lg slider-text-header">Fresh meat products include whole muscles through minced
+                            <p class="text-white mb-2 text-lg slider-text-header">Fresh meat products include whole
+                                muscles through minced
                                 meat.</p>
 
                             <button
@@ -229,7 +237,9 @@
                             <h1 class="slider-text-header text-gray-200 font-serif font-bold text-[60px] mb-4">Fresh
                                 Potato</h1>
 
-                            <p class="text-white mb-2 text-md slider-text-header">We sell freshly harvest potato to meet your industry needs. <br> Our fresh potato is NON-GMO and available for export and import transactions.</p>
+                            <p class="text-white mb-2 text-md slider-text-header">We sell freshly harvest potato to meet
+                                your industry needs. <br> Our fresh potato is NON-GMO and available for export and
+                                import transactions.</p>
 
                             <button
                                 class="slider-button text-white text-[14px] bg-[#95AE3C] px-10 py-4 rounded-3xl font-semibold mt-8 hover:bg-[#2D2A6E] transition-all delay-300 ease-in-out">SHOP
@@ -237,6 +247,69 @@
                         </div>
 
                     </div>
+                </div>
+                <div id="next-btn" class="swiper-button-next"></div>
+                <div id="prev-btn" class="swiper-button-prev"></div>
+                <div class="swiper-pagination mb-12"></div>
+            </div>
+        </section>
+        <!-- Hero section end -->
+
+        <!-- first section of cart product -->
+        <section class="first-cart-section w-full h-fit bg-[#F2F2F6]">
+
+            <!-- cart container -->
+            <div id="first-sec-container-of-cart"
+                class="first-sec-cart-container py-16 px-[10px] lg:px-[12%] flex flex-wrap justify-evenly gap-2">
+
+
+
+            </div>
+        </section>
+
+        <!-- second spacial product section -->
+        <section class="second-spacial-product-section px-[10px] lg:px-[12%] my-16">
+
+            <!-- spacial offer header -->
+            <div class="header-content text-center">
+                <h3 class="text-lg text-[#95AE3C] mb-2 font-semibold">~Spacial Products~</h3>
+                <h1 class="text-3xl font-semibold">Weekly Food Offers</h1>
+            </div>
+
+            <!-- spacial offer navbar -->
+            <nav>
+                <ul class="flex flex-wrap justify-center mt-7 mb-4 gap-6 text-lg font-semibold">
+                    <li
+                        class="cursor-pointer text-gray-500 hover:text-[#95AE3C] transition-all duration-150 delay-100 ease-in-out">
+                        <a href="#">All Products</a>
+                    </li>
+                    <li class="cursor-pointer text-gray-500 hover:text-[#95AE3C] transition-all duration-150 delay-100 ease-in-out">
+                        <a href="#">Fresh Meat</a>
+                    </li>
+                    <li class="cursor-pointer text-gray-500 hover:text-[#95AE3C] transition-all duration-150 delay-100 ease-in-out">
+                        <a href="#">Fresh Vegetables</a>
+                    </li>
+                    <li class="cursor-pointer text-gray-500 hover:text-[#95AE3C] transition-all duration-150 delay-100 ease-in-out">
+                        <a href="#">Biscuits Snacks</a>
+                    </li>
+                </ul>
+            </nav>
+
+            <!-- spacial offer products card -->
+            <div class="spacial-offer-product-container">
+                <!-- Swiper -->
+                <div id="second-product-slider" class="swiper mySwiper2">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide swiper-slide2"><img src="images/second_sec_product/products11-min.jpg" alt=""></div>
+                        <div class="swiper-slide swiper-slide2"><img src="images/second_sec_product/products13-min.jpg" alt=""></div>
+                        <div class="swiper-slide swiper-slide2"><img src="images/second_sec_product/products15-min.jpg" alt=""></div>
+                        <div class="swiper-slide swiper-slide2"><img src="images/second_sec_product/products17-min.jpg" alt=""></div>
+                        <div class="swiper-slide swiper-slide2"><img src="images/second_sec_product/products26-min.jpg" alt=""></div>
+                        <div class="swiper-slide swiper-slide2"><img src="images/second_sec_product/products17-min.jpg" alt=""></div>
+                    </div>
+                    <div class="swiper-pagination swiper-pagination2"></div>
+                    <div id="next-btn2" class="swiper-button-next swiper-button-next2"></div>
+                    <div id="prev-btn2" class="swiper-button-prev swiper-button-prev2"></div>
                 </div>
             </div>
         </section>
@@ -252,7 +325,10 @@
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 
     <!-- js link -->
-    <script src="js/script.js"></script>
+    <script src="js/carousel.js"></script>
+    <script src="js/first_product_sec.js"></script>
+    <script src="js/carousel2.js"></script>
+
 </body>
 
 </html>
